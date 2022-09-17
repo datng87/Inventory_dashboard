@@ -22,7 +22,7 @@ The raw data comes from 3 sources:
 - Using Pandas to manipulate the data to create the projected inventory by weekly bucket.
 - The forecast was broken down from monthly to weekly. The incoming inventory date is rounded to the closest week date. The overdue purchase order will be projected to next week's inventory.
 - The end-of-hand inventory is calculated and exported to a new file so that the historical data can also be reviewed.
-   - End on hand = Current stock on hand + incoming purchase order - forecast
+- End on hand = Current stock on hand + incoming purchase order - forecast
 
 
 At the end, we will have a projected inventory by weekly bucket. The data from the previous weeks was also saved and visualised to monitor the trends.
